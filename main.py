@@ -439,9 +439,10 @@ async def txt_handler(client: Client, m: Message):
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
         f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : @Rana_bots 💻\n"
-        f"╰────────⊰◆⊱────────╯\n"                
-    )
-        (
+        f"╰────────⊰◆⊱────────╯\n"
+        )
+    )   
+    
 @bot.on_message(filters.command(["logs"]))
 async def send_logs(client: Client, m: Message):  # Correct parameter name
     try:
