@@ -438,7 +438,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : @Rana_bots 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : @❣️ꪻꫝꫀ ꫝꪮᦓꪻꪑꪖꪀ 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )   
@@ -603,7 +603,7 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -o "{name}.%(ext)s" -f "bestvideo[height<={raw_text2}]+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv --no-warning "{url}"'
 
             elif "https://cpvod.testbook.com/" in url:
-                url = url.replace("https://cpvod.testbook.com/","https://media-cdn.classplusapp.com/drm/")
+                url = url.("https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id={user_id}")
                 url = 'https://dragoapi.vercel.app/classplus?link=' + url
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
